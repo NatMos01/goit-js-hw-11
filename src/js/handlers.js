@@ -4,7 +4,7 @@ import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 import { refs } from './refs';
 import { renderGalleryMarkup } from './createmarkup';
-import { fetchImages } from './fetchimages';
+import { fetchImages } from './fetchImages';
 
 const lightbox = new SimpleLightbox('.gallery a');
 
